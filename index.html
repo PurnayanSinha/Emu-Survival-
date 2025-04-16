@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Run Survival Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 class="title">Welcome to Purnayan's Run Survival</h1>
+  <div class="scoreboard">
+    <div>Your Score: <span id="score">0</span></div>
+    <div>Best Score: <span id="bestScore">0</span></div>
+  </div>
+  <div class="game" id="game">
+    <div id="player"></div>
+  </div>
+  <div id="gameOverScreen" class="hidden">
+    <h2>Game Over</h2>
+    <button onclick="restartGame()">Restart</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
